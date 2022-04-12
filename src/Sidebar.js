@@ -14,8 +14,8 @@ function Sidebar() {
         </div>
         <div className="sidebar__icon__container">
           <div className="sidebar__icons">
-            <GameButton><Gamepad size="34" /></GameButton>
-            <UserButton><UserAlt size="30"/></UserButton>
+            <GameButton><Gamepad size="35" /></GameButton>
+            <UserButton><UserAlt size="29"/></UserButton>
             <ChatButton><ChatBubble size='30'/></ChatButton>
             <SettingButton><Settings size='30'/></SettingButton>
             <StreamButton><Stream size='30'/></StreamButton>
@@ -25,21 +25,22 @@ function Sidebar() {
     </div>
   )
 }
-const Gamepad = styled(IoLogoGameControllerB)`
-  color: white;
-  `
 const GameButton = styled.button`
   padding: 10px;
-  border-radius: 10em;
+  border-radius: 50px;
   background: transparent;
   /* border: 3px solid gray; */
   color: white;
   /* border: none; */
   &:hover{
+    border-radius: 10px;
     /* border: 3px solid white; */
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
   }
+`
+const Gamepad = styled(IoLogoGameControllerB)`
+  color: white;
 `
 const UserButton = styled.button`
   padding: 10px;
@@ -49,6 +50,7 @@ const UserButton = styled.button`
   /* color: white; */
   &:hover{
     transform: scale(1.1);
+    border-radius: 10px;
     transition: 0.3s ease-in-out;
   }
 `
@@ -67,6 +69,7 @@ const ChatButton = styled.button`
   /* border: 3px solid gray; */
   /* color: white; */
   &:hover{
+    border-radius: 10px;
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
   }
@@ -82,6 +85,7 @@ const SettingButton = styled.button`
   /* color: white; */
   &:hover{
     transform: scale(1.1);
+    border-radius: 10px;
     transition: 0.3s ease-in-out;
   }
 `
@@ -95,6 +99,7 @@ const StreamButton = styled.button`
   /* border: 3px solid gray; */
   /* color: white; */
   &:hover{
+    border-radius: 10px;
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
   }
@@ -109,11 +114,12 @@ const MusicButton = styled.button`
   /* border: 3px solid gray; */
   /* color: white; */
   &:hover{
+    border-radius: 10px;
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 `
 const Music = styled(MdMusicNote)`
-  color: #e416f7;
+  color: green;
 `
 export default Sidebar

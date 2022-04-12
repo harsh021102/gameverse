@@ -1,7 +1,7 @@
 .sidebar{
     display: flex;
     flex-direction: column;
-    flex: 0.10;
+    flex: 0.12;
     height: 100vh;
     background-color: #2f3135;
 }
@@ -12,19 +12,20 @@
     padding: 20px;
     background-color: #2f3135;
     color: white;
-    border-bottom: 3px solid #26282c;
+    /* border-bottom: 3px solid #26282c; */
 }
-.sidebar__icons__container{
+.sidebar__icon__container{
     flex: 1;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .sidebar__icons{
     display: flex;
+    /* border: 1px solid red; */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex: 1;
-    gap: 1rem;
-    margin-top: 10px;
+    gap: 2rem;
+    margin-top: 20px;
     /* border: 1px solid red; */
 }
