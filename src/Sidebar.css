@@ -1,0 +1,30 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.10;
+    height: 100vh;
+    background-color: #2f3135;
+}
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+.sidebar__icons__container{
+    flex: 1;
+    border: 1px solid blue;
+}
+.sidebar__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
