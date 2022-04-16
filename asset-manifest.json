@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gameverse/static/css/main.6a2c849f.css",
+    "main.js": "/gameverse/static/js/main.3a1d5986.js",
+    "static/js/787.15a5cc2e.chunk.js": "/gameverse/static/js/787.15a5cc2e.chunk.js",
+    "static/media/profile.jpg": "/gameverse/static/media/profile.5d7fb55438718c25733a.jpg",
+    "static/media/tictactoe.jpg": "/gameverse/static/media/tictactoe.6f20cee63af13203fcc6.jpg",
+    "static/media/wordle.png": "/gameverse/static/media/wordle.a8f0f7c4d694419c2794.png",
+    "static/media/chess.jpg": "/gameverse/static/media/chess.02dc117ef8b989cc6d78.jpg",
+    "static/media/2048.jpg": "/gameverse/static/media/2048.9e0fb24efb76ce8b9875.jpg",
+    "index.html": "/gameverse/index.html",
+    "main.6a2c849f.css.map": "/gameverse/static/css/main.6a2c849f.css.map",
+    "main.3a1d5986.js.map": "/gameverse/static/js/main.3a1d5986.js.map",
+    "787.15a5cc2e.chunk.js.map": "/gameverse/static/js/787.15a5cc2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a2c849f.css",
+    "static/js/main.3a1d5986.js"
+  ]
+}
