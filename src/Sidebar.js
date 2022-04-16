@@ -29,17 +29,19 @@ const Gamepad = styled(IoLogoGameControllerB)`
 `
 const GameButton = styled.button`
   padding: 12px;
-  border-radius: 50%;
+  border-radius: 50px ;
   background: hsl(244, 38%, 16%);
   color: hsla(0, 0%, 100%, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  /* box-shadow: -1px 7px 7px 2px hsla(244, 38%, 16%,50%); */
   &:hover{
-    border-radius: 10px;
     transform: scale(1.1);
+    border-radius: 10px;
     transition: 0.3s ease-in-out;
-    color: white;
+    color:hsl(0, 0%, 100%);
   }
 `
 const UserButton = styled.button`
@@ -49,6 +51,7 @@ const UserButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
   &:hover{
     transform: scale(1.1);
@@ -69,6 +72,7 @@ const ChatButton = styled.button`
   color: hsla(0, 0%, 100%, 0.75);
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   &:hover{
     border-radius: 10px;
     transform: scale(1.1);
@@ -86,6 +90,7 @@ const SettingButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
   &:hover{
     transform: scale(1.1);
@@ -104,6 +109,7 @@ const StreamButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
   &:hover{
     border-radius: 10px;
@@ -123,6 +129,7 @@ const MusicButton = styled.button`
   justify-content: center;
   color: hsla(0, 0%, 100%, 0.75);
   align-items: center;
+  cursor: pointer;
   &:hover{
     border-radius: 10px;
     transform: scale(1.1);

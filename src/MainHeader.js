@@ -17,7 +17,7 @@ function MainHeader() {
       <div className="chatHeader__right">
         <div className="sidebar__profile">
           <Profile >
-            <Avatar src={profile} style={{ height: '35px', width: '35px' }} />
+            <ProAvatar src={profile} style={{ height: '35px', width: '35px' }} />
             <h3>@harsh_160101</h3>
             <MdArrowDropDown size="25"/>
           </Profile>
@@ -67,5 +67,12 @@ const NotiButton = styled.button`
 `
 const Notifications = styled(MdNotifications)`
   /* color: white; */
+`
+const ProAvatar = styled(Avatar)`
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
 `
 export default MainHeader
