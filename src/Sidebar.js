@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { MdSettings,MdChatBubble,MdVideoCameraBack,MdMusicNote } from "react-icons/md";
 import { BiUser } from "react-icons/bi";
 import { IoLogoGameControllerB } from "react-icons/io";
+import { keyframes } from 'styled-components';
 function Sidebar() {
   return (
     <div className='sidebar'>
@@ -12,8 +13,10 @@ function Sidebar() {
         </div>
         <div className="sidebar__icon__container">
           <div className="sidebar__icons">
-            <GameButton><Gamepad size="35" /></GameButton>
-            <UserButton><UserAlt size="29"/></UserButton>
+            <GameButton><IoLogoGameControllerB size="35" /></GameButton>
+            <UserButton>
+              <UserAlt size="29"/>
+              </UserButton>
             <ChatButton><ChatBubble size='30'/></ChatButton>
             <SettingButton><Settings size='30'/></SettingButton>
             <StreamButton><Stream size='30'/></StreamButton>
@@ -23,9 +26,13 @@ function Sidebar() {
     </div>
   )
 }
-const Gamepad = styled(IoLogoGameControllerB)`
-  /* color: hsla(0, 0%, 100%, 0.75); */
-  /* padding: 4px; */
+const GamepadAnimation = keyframes`
+    /* from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    } */
 `
 const GameButton = styled.button`
   padding: 12px;
@@ -36,7 +43,20 @@ const GameButton = styled.button`
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  /* box-shadow: -1px 7px 7px 2px hsla(244, 38%, 16%,50%); */
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                10px 10px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080;
+  /* text-shadow:0px 0px 50px #0072ff,
+              0px 0px 100px #0072ff,
+              0px 0px 150px #0072ff,
+              0px 0px 200px #0072ff;
+  /* animation-name: ${GamepadAnimation}; */
+  /* animation-duration: 3s;
+  animation-iteration-count: infinite; */ */
   &:hover{
     transform: scale(1.1);
     border-radius: 10px;
@@ -62,8 +82,8 @@ const UserButton = styled.button`
 `
 const UserAlt = styled(BiUser)`
   padding: 4px;
-  /* color: hsl(0, 0%, 100%); */
-  `
+  color: #fff;
+`
 const ChatButton = styled.button`
   padding: 12px;
   border-radius: 10em;
