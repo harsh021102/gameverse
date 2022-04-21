@@ -13,7 +13,7 @@ function Sidebar() {
         </div>
         <div className="sidebar__icon__container">
           <div className="sidebar__icons">
-            <GameButton><IoLogoGameControllerB size="35" /></GameButton>
+            <GameButton><GamepadAnimation size="35" /></GameButton>
             <UserButton>
               <UserAlt size="29"/>
               </UserButton>
@@ -26,7 +26,7 @@ function Sidebar() {
     </div>
   )
 }
-const GamepadAnimation = keyframes`
+const GamepadAnimation = styled(IoLogoGameControllerB)`
     /* from{
         filter: hue-rotate(0deg);
     }
@@ -50,13 +50,11 @@ const GameButton = styled.button`
                 inset 2px 2px 12px #00000080,
                 inset 2px 2px 12px #00000080,
                 inset 2px 2px 12px #00000080;
-  /* text-shadow:0px 0px 50px #0072ff,
-              0px 0px 100px #0072ff,
-              0px 0px 150px #0072ff,
-              0px 0px 200px #0072ff;
-  /* animation-name: ${GamepadAnimation}; */
-  /* animation-duration: 3s;
-  animation-iteration-count: infinite; */ */
+                /* text-shadow:0px 0px 50px #0072ff,
+                0px 0px 100px #0072ff,
+                0px 0px 150px #0072ff,
+                0px 0px 200px #0072ff;
+  animation: animate 3s linear; */
   &:hover{
     transform: scale(1.1);
     border-radius: 10px;
@@ -73,6 +71,13 @@ const UserButton = styled.button`
   align-items: center;
   cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                10px 10px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080;
   &:hover{
     transform: scale(1.1);
     border-radius: 10px;
@@ -93,6 +98,13 @@ const ChatButton = styled.button`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                    10px 10px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080;
   &:hover{
     border-radius: 10px;
     transform: scale(1.1);
@@ -112,6 +124,13 @@ const SettingButton = styled.button`
   align-items: center;
   cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                    10px 10px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080;
   &:hover{
     transform: scale(1.1);
     border-radius: 10px;
@@ -131,6 +150,13 @@ const StreamButton = styled.button`
   align-items: center;
   cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                    10px 10px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080;
   &:hover{
     border-radius: 10px;
     transform: scale(1.1);
@@ -150,6 +176,13 @@ const MusicButton = styled.button`
   color: hsla(0, 0%, 100%, 0.75);
   align-items: center;
   cursor: pointer;
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                    10px 10px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080;
   &:hover{
     border-radius: 10px;
     transform: scale(1.1);

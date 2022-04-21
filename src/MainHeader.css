@@ -29,9 +29,18 @@
     border-radius: 3px;
     padding: 3px;
     min-width: 13rem;
+    border: 3px solid hsl(244, 38%, 16%);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #00000080,
+                    10px 10px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080,
+                    inset 2px 2px 12px #00000080;
 }
 .chatHeader__search > input{
     height: 40px;
+    padding-left: 15px;
     background: transparent;
     outline-width: 0;
     color: white;

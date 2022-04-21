@@ -36,6 +36,13 @@ const Profile = styled.button`
   color: hsla(0, 0%, 100%, 0.75);
   align-items: center;
   gap: 0.8rem;
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                10px 10px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080;
   &:hover{
     /* border-radius: 10px; */
     /* transform: scale(1.1); */
@@ -57,6 +64,13 @@ const NotiButton = styled.button`
   justify-content: center;
   align-items: center;
   color: hsla(0, 0%, 100%, 0.75);
+  border: 3px solid hsl(244, 38%, 16%);
+  box-shadow: 2px 2px 2px #00000080,
+                10px 10px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080,
+                inset 2px 2px 12px #00000080;
   &:hover{
     background-color: hsl(233, 47%, 19%);
     cursor: pointer;
