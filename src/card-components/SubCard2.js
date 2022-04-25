@@ -2,7 +2,7 @@ import React from 'react'
 import './SubCard.css'
 import styled from 'styled-components'
 import { IoLogoGameControllerB } from "react-icons/io";
-import profile from '../images/profile.jpg'
+import chess from '../images/chess.jpg'
 function SubCard2() {
   return (
     <div className="outer__container">
@@ -10,7 +10,7 @@ function SubCard2() {
           <div className="container__1">
               <div className="card">
                   <div className="imgBx">
-                      <img src={profile}></img>
+                      <img src={chess}></img>
                   </div>
                   <div className="content__sub">
                       <div className="contentBx">
@@ -23,7 +23,7 @@ function SubCard2() {
               </div>
               <div className="card">
                   <div className="imgBx">
-                      <img src={profile}></img>
+                      <img src={chess}></img>
                   </div>
                   <div className="content__sub">
                       <div className="contentBx">
@@ -36,7 +36,7 @@ function SubCard2() {
               </div>
               <div className="card">
                   <div className="imgBx">
-                      <img src={profile}></img>
+                      <img src={chess}></img>
                   </div>
                   <div className="content__sub">
                       <div className="contentBx">
