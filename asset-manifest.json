@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gameverse/static/css/main.6a2c849f.css",
-    "main.js": "/gameverse/static/js/main.3a1d5986.js",
+    "main.css": "/gameverse/static/css/main.26121462.css",
+    "main.js": "/gameverse/static/js/main.2756bfa1.js",
     "static/js/787.15a5cc2e.chunk.js": "/gameverse/static/js/787.15a5cc2e.chunk.js",
     "static/media/profile.jpg": "/gameverse/static/media/profile.5d7fb55438718c25733a.jpg",
     "static/media/tictactoe.jpg": "/gameverse/static/media/tictactoe.6f20cee63af13203fcc6.jpg",
@@ -9,12 +9,12 @@
     "static/media/chess.jpg": "/gameverse/static/media/chess.02dc117ef8b989cc6d78.jpg",
     "static/media/2048.jpg": "/gameverse/static/media/2048.9e0fb24efb76ce8b9875.jpg",
     "index.html": "/gameverse/index.html",
-    "main.6a2c849f.css.map": "/gameverse/static/css/main.6a2c849f.css.map",
-    "main.3a1d5986.js.map": "/gameverse/static/js/main.3a1d5986.js.map",
+    "main.26121462.css.map": "/gameverse/static/css/main.26121462.css.map",
+    "main.2756bfa1.js.map": "/gameverse/static/js/main.2756bfa1.js.map",
     "787.15a5cc2e.chunk.js.map": "/gameverse/static/js/787.15a5cc2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a2c849f.css",
-    "static/js/main.3a1d5986.js"
+    "static/css/main.26121462.css",
+    "static/js/main.2756bfa1.js"
   ]
 }
