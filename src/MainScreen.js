@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 import CardSection from './CardSection'
 import MainHeader from './MainHeader'
 import './MainScreen.css'
@@ -6,9 +7,12 @@ import './MainScreen.css'
 function MainScreen() {
   return (
     <div className="mainscreen">
-      <MainHeader/>
-      <CardSection/>
-      {/* <h2>Hello world</h2> */}
+      <Routes>
+        <Route path='/' element={[<MainHeader/>,<CardSection/>]}>
+        </Route>
+        <Route path='/gameverse' element={[<MainHeader/>,<CardSection/>]}>
+        </Route>
+      </Routes>
     </div>
   )
 }

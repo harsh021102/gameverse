@@ -5,7 +5,9 @@ import { IoLogoGameControllerB } from "react-icons/io";
 import chess from '../images/chess.jpg'
 import wordle from '../images/wordle.png'
 import twozerofoureight from '../images/2048.jpg'
+import { Link, useNavigate } from 'react-router-dom';
 function SubCard() {
+    const navigate = useNavigate();
   return (
     <div className="outer__container">
       <section>
@@ -19,7 +21,9 @@ function SubCard() {
                           <h3>Someone Famouse<br/> <span>Creative Designer</span> </h3>
                       </div>
                       <ul className="sci">
-                          <li><a href="#"><GameButton><Gamepad size="35" /></GameButton></a></li>
+                        <li>
+                            <GameButton onClick={navigate("memory-game")}><Gamepad size="35" /></GameButton>
+                        </li>
                       </ul>
                   </div>
               </div>
