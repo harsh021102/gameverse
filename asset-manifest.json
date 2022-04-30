@@ -1,20 +1,38 @@
 {
   "files": {
-    "main.css": "/gameverse/static/css/main.26121462.css",
-    "main.js": "/gameverse/static/js/main.2756bfa1.js",
+    "main.css": "/gameverse/static/css/main.16a7bdda.css",
+    "main.js": "/gameverse/static/js/main.fcc6b0e7.js",
     "static/js/787.15a5cc2e.chunk.js": "/gameverse/static/js/787.15a5cc2e.chunk.js",
+    "static/media/03.jpg": "/gameverse/static/media/03.7614b64fdd2e925177b5.jpg",
+    "static/media/04.jpg": "/gameverse/static/media/04.b6b76c4bb0e8b64df59e.jpg",
+    "static/media/09.jpg": "/gameverse/static/media/09.e72a82e71dc27f03dced.jpg",
+    "static/media/13.jpg": "/gameverse/static/media/13.8a4d796f183e7ad54fdc.jpg",
+    "static/media/05.jpg": "/gameverse/static/media/05.c961526f010c246da2f7.jpg",
+    "static/media/15.jpg": "/gameverse/static/media/15.7b016eae4f3917636c81.jpg",
+    "static/media/14.jpg": "/gameverse/static/media/14.3ac829300563f8fe486f.jpg",
+    "static/media/01.jpg": "/gameverse/static/media/01.700c1f6f5468a66904ec.jpg",
+    "static/media/08.jpg": "/gameverse/static/media/08.c00bd76372f05191efe6.jpg",
     "static/media/profile.jpg": "/gameverse/static/media/profile.5d7fb55438718c25733a.jpg",
     "static/media/tictactoe.jpg": "/gameverse/static/media/tictactoe.6f20cee63af13203fcc6.jpg",
     "static/media/wordle.png": "/gameverse/static/media/wordle.a8f0f7c4d694419c2794.png",
+    "static/media/11.jpg": "/gameverse/static/media/11.05c135220c83a69bd3b9.jpg",
+    "static/media/06.jpg": "/gameverse/static/media/06.758d07b9b692110ea00b.jpg",
+    "static/media/07.jpg": "/gameverse/static/media/07.c844d11f4a8f552c2681.jpg",
+    "static/media/12.jpg": "/gameverse/static/media/12.ca8c99ab0e0f0a1be753.jpg",
+    "static/media/10.jpg": "/gameverse/static/media/10.4c2134c142c6de105299.jpg",
+    "static/media/18.jpg": "/gameverse/static/media/18.ca09694b2edf35d7f2dc.jpg",
+    "static/media/02.jpg": "/gameverse/static/media/02.75682766479384dc15ae.jpg",
+    "static/media/17.jpg": "/gameverse/static/media/17.f8cae4184f514f446553.jpg",
+    "static/media/16.jpg": "/gameverse/static/media/16.6363775f7c4d8ac55409.jpg",
     "static/media/chess.jpg": "/gameverse/static/media/chess.02dc117ef8b989cc6d78.jpg",
     "static/media/2048.jpg": "/gameverse/static/media/2048.9e0fb24efb76ce8b9875.jpg",
     "index.html": "/gameverse/index.html",
-    "main.26121462.css.map": "/gameverse/static/css/main.26121462.css.map",
-    "main.2756bfa1.js.map": "/gameverse/static/js/main.2756bfa1.js.map",
+    "main.16a7bdda.css.map": "/gameverse/static/css/main.16a7bdda.css.map",
+    "main.fcc6b0e7.js.map": "/gameverse/static/js/main.fcc6b0e7.js.map",
     "787.15a5cc2e.chunk.js.map": "/gameverse/static/js/787.15a5cc2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26121462.css",
-    "static/js/main.2756bfa1.js"
+    "static/css/main.16a7bdda.css",
+    "static/js/main.fcc6b0e7.js"
   ]
 }
