@@ -6,6 +6,9 @@
     height: 100vh;
     background-color: hsl(233, 47%, 7%);
 }
+.logo:hover{
+    cursor: pointer;
+}
 .sidebar__top{
     display: flex;
     justify-content: space-between;

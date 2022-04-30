@@ -2,6 +2,7 @@ import './MemoryGame.css';
 import Images from './Images';
 import {useState} from "react";
 import {shuffle} from 'lodash';
+import { Scrollbars } from 'react-custom-scrollbars'
 
 function MemoryGame() {
   const [cards,setCards] = useState( shuffle([...Images, ...Images]) );
@@ -37,6 +38,8 @@ function MemoryGame() {
     setClicks(clicks + 1);
   }
   return (
+    <Scrollbars autoHide>
+    <>
     <div className='game-container'>
       <div className="board">
         {cards.map((card,index) => {
@@ -63,6 +66,8 @@ function MemoryGame() {
         Clicks: {clicks} &nbsp;&nbsp;&nbsp; Found pairs:{foundPairs.length/2}
       </div>
     </div>
+    </>
+    </Scrollbars>
   );
 }
 

@@ -18,7 +18,7 @@ function SubCard() {
                   </div>
                   <div className="content__sub">
                       <div className="contentBx">
-                          <h3>Memory Game<br/> <span>Creative Designer</span> </h3>
+                          <h3>Memory Game<br/> <span>Train your muscle memory</span> </h3>
                       </div>
                       <ul className="sci">
                         <li>
@@ -73,6 +73,7 @@ const GameButton = styled.button`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border: 3px solid hsl(244, 38%, 16%);
   &:hover{
     transform: scale(1.1);
     transition: 0.3s ease-in-out;

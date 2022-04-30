@@ -4,8 +4,6 @@ import CardSection from './CardSection'
 import MainHeader from './MainHeader'
 import MemoryGame from './games/memory-game/MemoryGame'
 import './MainScreen.css'
-import Test from './Test'
-// import MainHeader from './MainHeader'
 function MainScreen() {
   return (
     <div className="mainscreen">

@@ -1,6 +1,9 @@
 .game-container{
   background-color: hsl(233, 47%, 13%);
   padding: 20px;
+  height: 100%;
+  /* border: 1px solid red; */
+  /* overflow-y: scroll; */
 }
 .board{
   width: calc(100vh - 240px);

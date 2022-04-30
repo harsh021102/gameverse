@@ -5,15 +5,17 @@ import { MdSettings,MdChatBubble,MdVideoCameraBack,MdMusicNote } from "react-ico
 import { BiUser } from "react-icons/bi";
 import { IoLogoGameControllerB } from "react-icons/io";
 import { keyframes } from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 function Sidebar() {
+  const navigate=useNavigate();
   return (
     <div className='sidebar'>
         <div className="sidebar__top">
-            <h2>GameVerse</h2>
+            <h2 className="logo" onClick={()=>navigate("/")}>GameVerse</h2>
         </div>
         <div className="sidebar__icon__container">
           <div className="sidebar__icons">
-            <GameButton><GamepadAnimation size="35" /></GameButton>
+            <GameButton onClick={()=>navigate("/")}><GamepadAnimation size="35" /></GameButton>
             <UserButton>
               <UserAlt size="29"/>
               </UserButton>
@@ -26,6 +28,7 @@ function Sidebar() {
     </div>
   )
 }
+// con
 const GamepadAnimation = styled(IoLogoGameControllerB)`
     /* from{
         filter: hue-rotate(0deg);
