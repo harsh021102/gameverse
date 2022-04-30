@@ -18,11 +18,11 @@ function SubCard() {
                   </div>
                   <div className="content__sub">
                       <div className="contentBx">
-                          <h3>Someone Famouse<br/> <span>Creative Designer</span> </h3>
+                          <h3>Memory Game<br/> <span>Creative Designer</span> </h3>
                       </div>
                       <ul className="sci">
                         <li>
-                            <GameButton onClick={navigate("memory-game")}><Gamepad size="35" /></GameButton>
+                            <GameButton onClick={()=>navigate("/memory-game")}><Gamepad size="35" /></GameButton>
                         </li>
                       </ul>
                   </div>
